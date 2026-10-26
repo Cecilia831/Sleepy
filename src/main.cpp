@@ -16,7 +16,7 @@
  *    C4001    VIN -> 3V3   GND -> GND
  *    DHT11    vcc -> 3V3   ground -> GND
  *
- *  WiFi : SSID=XiiPhone  PASS=yuxi831qwert!
+ *  WiFi : SSID=XiiPhone  PASS=yuxi
  *  上报 : GET http://172.20.10.6:8088/log?temp=..&hum=..&resp=..&move=..
  *
  *  呼吸频率估算：
@@ -48,7 +48,7 @@ DHT dht(PIN_DHT11, DHT11);
 
 /* ---------- WiFi 配置 ---------- */
 const char* WIFI_SSID = "XiiPhone";
-const char* WIFI_PASS = "yuxi831qwert!";
+const char* WIFI_PASS = "yuxi";
 
 /* ---------- Mac 端接收服务器配置 ---------- */
 const char* HOST = "172.20.10.6";
